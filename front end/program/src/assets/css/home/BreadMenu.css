@@ -1,0 +1,54 @@
+.BreadMenu{
+    width: 100%;
+    height: 100vh;
+    background: url(./../../../images/background\ black.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-flow: column nowrap;
+}
+.BreadMenu .titre{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.BreadMenu .titre img{
+    width: 100px;
+}
+.BreadMenu .titre h1{
+    color: white;
+    font-family: Sail;
+}
+
+.BreadMenu .Product-Container{
+    /* border: white solid 1px; */
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.BreadMenu .btn-moreProducts{
+    border: white soldi 1px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.BreadMenu .btn-moreProducts button{
+    color: white;
+    background-color: #E28B15;
+    /* border: solid #ffff 2px; */
+    width: 150px;
+    height: 35px;
+    font-size: 1.3rem;
+    border-radius: 15px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+
+}

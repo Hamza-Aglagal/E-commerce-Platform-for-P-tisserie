@@ -1,0 +1,44 @@
+.CardProducts{
+    /* border: white solid 1px; */
+    width: 250px;
+    height: 330px;
+    margin: 15px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.CardProducts .img-Product{
+    width: 150px;
+}
+
+.CardProducts .titre-products{
+    color: white;
+    font-family: Arial Rounded MT Bold;
+    width: 180px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.CardProducts .price-products{
+    color: #F89D21;
+    font-family: Arial Rounded MT Bold;
+    width: 170px;
+    font-size: bold;
+    text-align: center;
+}
+
+.CardProducts .line-products{
+    width: 70%;
+    height: 2px;
+    background-color: grey;
+    margin-bottom: 1rem;   
+}
+
+.CardProducts .btn-products{
+    width: 50%;
+    height: 30px;
+    background-color: initial;
+    border: solid #F89D21 2px;
+    color: white;
+}

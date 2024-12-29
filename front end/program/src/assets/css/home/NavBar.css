@@ -1,0 +1,145 @@
+.navbar {
+    padding: 1.3rem .5rem !important;
+    /* background-color: #222831 !important ; */
+    background-color: initial !important;
+    /* background: linear-gradient(to right, #222831 45%, #222831bd , #222831bd ); */
+
+    z-index: 1111 !important;
+    /* position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-bottom: 3rem; */
+}
+
+.navbar-toggler,
+.navbar-toggler-icon {
+    background-color: #E28B15;
+}
+
+.NavBar-logo {
+    width: 15rem;
+    height: 3rem;
+}
+
+.navbar-nav {
+    margin-left: 5rem;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 2.5rem;
+}
+
+.nav-item .color-NavLink {
+    color: #E28B15 !important;
+    font-weight: 500;
+}
+
+.cart-login-btn {
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 30px;
+    height: 55px;
+    background-color: #EEEBEB;
+    /* background: linear-gradient(to right, #EEEBEB 15%, #E28B15 50%); */
+    margin-right: 1.5rem;
+}
+
+.cart {
+    font-size: 27px;
+    margin-top: .5rem;
+    color: black;
+}
+
+.cart .icons-cart {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.cart p {
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: .5rem;
+
+}
+
+/* --------------- */
+.cart-login-btn .btns-Auth {
+    /* border: red solid 1px; */
+    width: 60%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cart-login-btn .btns-Auth .btn-login {
+    width: 70px;
+    height: 35px;
+    border-radius: 30px;
+    background-color: #E28B15;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+
+.cart-login-btn .btns-Auth .btn-SignUp {
+    width: 100px;
+    height: 35px;
+    border-radius: 30px;
+    background-color: #E28B15;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+
+.cart-login-btn .icon-profile-navbar .dropdown-toggle img {
+    border: grey solid 1px;
+    width: 3rem;
+    height: 3rem;
+}
+
+
+/* Animation Icon Cart  */
+@keyframes cart-icon {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.7);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.cart-icon-animation {
+    display: inline-block;
+    animation: cart-icon 1s;
+}
+
+
+
+
+
+/* -------------------------------------------------- */
+@media only screen and (min-width: 600px) {
+
+    /* For tablets: */
+    .navbar-nav {
+        margin-left: 0;
+    }
+}
+
+/* -------------------------------------------------- */
+@media only screen and (min-width: 400px) {
+
+    /* For tablets: */
+    .navbar-nav {
+        margin-left: 0;
+    }
+
+}
+

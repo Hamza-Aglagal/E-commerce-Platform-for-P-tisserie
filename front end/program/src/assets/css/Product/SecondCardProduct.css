@@ -1,0 +1,193 @@
+.SecondCardProduct {
+    width: 200px;
+    min-height: 250px;
+    background-color: #000000e7;
+    margin: 2rem 0 0 2rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #F89D21;
+}
+
+/* 
+.SecondCardProduct .img-Product {
+    width: 130px;
+}
+
+.SecondCardProduct .titre-products {
+    color: white;
+    font-family: Arial Rounded MT Bold;
+    width: 180px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.SecondCardProduct .price-products {
+    color: #F89D21;
+    font-family: Arial Rounded MT Bold;
+    width: 170px;
+    font-size: bold;
+    text-align: center;
+}
+
+.SecondCardProduct .line-products {
+    width: 70%;
+    height: 2px;
+    background-color: grey;
+    margin-bottom: 1rem;
+}
+
+.SecondCardProduct .btn-products {
+    width: 50%;
+    height: 30px;
+    background-color: initial;
+    border: solid #F89D21 2px;
+    color: white;
+    margin-bottom: 3px;
+} */
+
+
+
+/* //----------------------------------------- */
+
+.box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 45px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5%;
+
+    /* padding: 20px 15px; */
+    background-color: #222831;
+    color: #ffffff;
+}
+
+.box .img-box {
+    width: 100%;
+    min-width: 175px;
+    height: 175px;
+    margin-right: 15px;
+    position: relative;
+    -webkit-transition: all 0.1 0.5s;
+    transition: all 0.1 0.5s;
+    /* border-radius: 100%; */
+    /* border: 1px solid #ffbe33; */
+    display: grid;
+    place-items: center;
+    background-color: #ddd9d9;
+    border-bottom-left-radius: 20%;
+    /* overflow: hidden; */
+}
+
+.box .img-box img {
+    width: 65%;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+
+.box .detail-box h5 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+    margin: 0;
+}
+
+.box .detail-box h6 {
+    font-family: 'Dancing Script', cursive;
+    margin: 10px 0;
+}
+
+.box .detail-box a svg {
+    width: 20px;
+    height: auto;
+    margin-left: 5px;
+    fill: #ffffff;
+}
+
+.box:hover .img-box img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.box .detail-box {
+    padding: 25px;
+}
+
+.box .detail-box h5 {
+    font-weight: 600;
+}
+
+.box .detail-box p {
+    font-size: 15px;
+}
+
+.box .detail-box h6 {
+    margin-top: 10px;
+}
+
+.box .options {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.box .options a {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: #E28B15;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.box .options a *{
+    margin-right: 5px;
+    width: 18px;
+    height: auto;
+    fill: #ffffff;
+}
+
+.box:hover .img-box img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.btn-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.btn-box a {
+    display: inline-block;
+    padding: 10px 55px;
+    background-color: #ffbe33;
+    color: #ffffff;
+    border-radius: 45px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: none;
+}
+
+.btn-box a:hover {
+    background-color: #e69c00;
+}

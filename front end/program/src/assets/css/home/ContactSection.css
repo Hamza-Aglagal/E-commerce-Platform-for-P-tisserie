@@ -1,0 +1,50 @@
+.ContactSection{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #EEEBEB;
+}
+
+.ContactSection .Sté-information{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.ContactSection .Sté-information h1{
+    font-family: sail;
+    margin-top: 2.3rem;
+}
+.ContactSection .Sté-information .textInfo{
+    font-size: 1rem;
+    color: #464646;
+}
+.ContactSection .Sté-information .time-job{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.ContactSection .Sté-information .time-job div{
+    width:350px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.ContactSection .map{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ContactSection .map img{
+    width: 500px;
+    height: 500px;
+}
